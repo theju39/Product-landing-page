@@ -1,0 +1,191 @@
+html{
+  scroll-behavior: smooth;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #eeeded;
+}
+.top-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  background-color: #eeeded;
+}
+#header-img{
+  width: 330px;
+}
+nav{
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-link{
+  text-decoration: none;
+  font-family: Verdana;
+  font-size: 1rem;
+  color: rgb(21, 21, 21);
+}
+.nav-link:hover{
+  color: wheat;
+}
+.nav-link:visited{
+  color: rgb(21, 21, 21);
+}
+li{
+  display: inline;
+  padding-right: 50px;
+}
+#handcrafted{
+  font-size: 1.3rem;
+  font-family: Verdana;
+}
+.get-started{
+  display: flex; 
+  align-items: center; 
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 70px;
+}
+input{
+  display: block;
+  margin: 5px;
+}
+#email{
+  width: 300px;
+  padding: 5px;
+  margin: 0px auto;
+}
+#submit{
+  width: 150px;
+  color: black;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  background-color: #fdd023;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  margin: 15px auto;
+}
+#submit:hover, .select:hover{
+  background-color: orange;
+}
+.premium-materials, .fast-shipping, .quality-assurance{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.premium-materials{
+  margin-top: 80px
+}
+i{
+  color: #F26522;
+  font-size: 2.7rem;
+}
+.icon{
+  width: 0px;
+  height: auto;
+  margin-right: 65px;
+  margin-bottom: 50px
+  
+}
+.text{
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.text h2{
+  font-size: 1.5rem;
+  margin: 0;
+  font-family: Helvetica;
+
+}
+.text p{
+  display: flex;
+  max-width: 500px;
+  font-size: 1rem;
+  margin: 5px 0 0;
+  font-family: Verdana;
+}
+.how-it-works{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.pricing{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+.trombone{
+  border:1px solid black;
+  border-radius: 3px;
+  width: 320px;
+  text-align: center;
+}
+.trombone-type{
+  padding: 10px;
+  background-color: #cfcdcd;
+  font-family: Helvetica;
+}
+.features1{
+  padding-bottom: 20px;
+}
+.features1 p{
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 5px 0;
+  font-family: Verdana;
+}
+.select {
+  width: 100px;
+  padding: 10px;
+  background-color: #fdd023;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 20px;
+}
+footer{
+  display: flex;
+  justify-content: center;
+}
+footer {
+  margin-top: 30px;
+  background-color: #ddd;
+  padding: 20px;
+}
+.footnav, .footer span{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: 0.8rem;
+  font-family: Verdana;
+}
+.footnav{
+  margin-bottom: 0;
+  row-gap: 0px;
+  color: rgb(21, 21, 21);
+
+}
+footer span{
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+.foot-link{
+  padding: 0 10px;
+  color: rgb(21,21,21);
+  text-decoration: none;
+  border:0px;
+  margin-bottom: 0;
+}
